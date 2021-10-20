@@ -7,7 +7,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-
+//function to initialize vector values (default are zeros)
 vector<double> initialize_vector(vector<double> vec1){
     for(int i = 0; i < vec1.size(); i++){
         vec1[i] = rand()%10;   
@@ -19,7 +19,7 @@ vector<double> initialize_vector(vector<double> vec1){
     return vec1;
 }
 
-
+// function that calculates scalar product out of two vectors
 double scalar_product(vector<double> v1, vector<double> v2){
     srand(time(NULL));
     double result{};
@@ -35,7 +35,7 @@ double scalar_product(vector<double> v1, vector<double> v2){
     return result;
 }
 
-
+// function that calculates outer product out of two vectors
 vector<vector<double>> outer_product(vector<double> v1, vector<double> v2){
     vector<vector<double>> matrix(v1.size(), vector<double>(v1.size(), 0));
     srand(time(NULL));
