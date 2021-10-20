@@ -2,6 +2,7 @@
 #include <vector>
 #include <time.h>
 
+// for c++17/c++20 you can use comma-separated list in using-declaration below
 using std::vector;
 using std::cout;
 using std::cin;
