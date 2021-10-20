@@ -8,6 +8,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+
 // function to initialize vector values (default are zeros)
 vector<double> initialize_vector(vector<double> vec1){
     for(int i = 0; i < vec1.size(); i++){
@@ -19,6 +20,7 @@ vector<double> initialize_vector(vector<double> vec1){
     cout << endl;
     return vec1;
 }
+
 
 // function that calculates scalar product out of two vectors
 double scalar_product(vector<double> v1, vector<double> v2){
@@ -35,6 +37,7 @@ double scalar_product(vector<double> v1, vector<double> v2){
     cout<< endl << "Scalar product is equal: " << result << endl;
     return result;
 }
+
 
 // function that calculates outer product out of two vectors
 vector<vector<double>> outer_product(vector<double> v1, vector<double> v2){
@@ -60,6 +63,7 @@ vector<vector<double>> outer_product(vector<double> v1, vector<double> v2){
     }
     return matrix;
 }
+
 
 int main(){
     int n{};
