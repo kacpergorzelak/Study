@@ -7,7 +7,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-//function to initialize vector values (default are zeros)
+// function to initialize vector values (default are zeros)
 vector<double> initialize_vector(vector<double> vec1){
     for(int i = 0; i < vec1.size(); i++){
         vec1[i] = rand()%10;   
